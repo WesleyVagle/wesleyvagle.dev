@@ -19,10 +19,10 @@ function customBasePlugin() {
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '', // Set base to an empty string
+  // base: '', // Set base to an empty string
   plugins: [
     vue(),
-    customBasePlugin() // Use the custom plugin
+    // customBasePlugin() // Use the custom plugin
   ],
   resolve: {
     alias: {
